@@ -4,8 +4,9 @@ function showPopup() {
   popup.innerHTML = "<h3>About YourListOnline</h3>" +
                     "<p>YourListOnline is a web-based todo list application that helps you keep track of your tasks and manage your time more efficiently.</p>" +
                     "<p>This version of the code is running on version Open Beta B2.0.</p>" +
-                    "<p>You can find the code on <a href='https://github.com/YourStreamingTools/YourListOnline' target='_blank'>GitHub</a>.</p>" +
-                    "<p>Follow me on <a href='https://twitter.com/Tools4Streaming' target='_blank'>Twitter</a> for the latest updates.</p>";
+                    "<p>You can find our code on <a href='https://github.com/YourStreamingTools/YourListOnline' target='_blank'>GitHub</a>.</p>" +
+                    "<p>Follow us on <a href='https://twitter.com/Tools4Streaming' target='_blank'>Twitter</a> for the latest updates.</p>" +
+                    "<p>Your can also join our <a href='https://discord.com/invite/ANwEkpauHJ' target='_blank'>Discord Server</a></p>";
 
   // Apply some CSS styles to the popup
   popup.style.position = "fixed";
@@ -14,7 +15,7 @@ function showPopup() {
   popup.style.transform = "translate(-50%, -50%)";
   popup.style.width = "400px";
   popup.style.padding = "20px";
-  popup.style.backgroundColor = "#fff";
+  popup.style.backgroundColor = "#ffffff";
   popup.style.borderRadius = "5px";
   popup.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.5)";
   popup.style.zIndex = "9999";
@@ -25,7 +26,7 @@ function showPopup() {
   closeButton.style.marginTop = "10px";
   closeButton.style.padding = "5px 10px";
   closeButton.style.backgroundColor = "#dc3545";
-  closeButton.style.color = "#fff";
+  closeButton.style.color = "#ffffff";
   closeButton.style.borderRadius = "5px";
   closeButton.style.border = "none";
   closeButton.style.cursor = "pointer";
