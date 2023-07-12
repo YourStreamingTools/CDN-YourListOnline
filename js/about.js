@@ -3,7 +3,7 @@ function showPopup() {
   var popup = document.createElement("div");
   popup.innerHTML = "<h3>About YourListOnline</h3>" +
                     "<p>YourListOnline is a web-based todo list application that helps you keep track of your tasks and manage your time more efficiently.</p>" +
-                    "<p>This version of the code is running on version Open Beta B2.0.</p>" +
+                    "<p>This version of the code is running on: Open Beta B2.2.</p>" +
                     "<p>You can find our code on <a href='https://github.com/YourStreamingTools/YourListOnline' target='_blank'>GitHub</a>.</p>" +
                     "<p>Follow us on <a href='https://twitter.com/Tools4Streaming' target='_blank'>Twitter</a> for the latest updates.</p>" +
                     "<p>Your can also join our <a href='https://discord.com/invite/ANwEkpauHJ' target='_blank'>Discord Server</a></p>";
