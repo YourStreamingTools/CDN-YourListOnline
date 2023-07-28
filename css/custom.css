@@ -63,4 +63,12 @@ a.popup-link {
 .top-bar .menu li.is-active a {
     color: #555555;
     font-weight: bold;
-  }
+}
+
+/* Styling for the API key wrapper */
+.api-key-wrapper {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-top: 10px;
+  display: none;
+}
