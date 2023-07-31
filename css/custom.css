@@ -86,3 +86,14 @@ a.popup-link {
   margin-top: 10px;
   display: none;
 }
+
+.copy-icon {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.material-icons {
+    font-size: 24px;
+}
