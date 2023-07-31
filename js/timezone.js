@@ -1,15 +1,13 @@
-// Function to get the user's time zone offset in minutes
-function getTimezoneOffset() {
-  return new Date().getTimezoneOffset();
-}
-
-// Convert UTC time to local time
+// Function to convert UTC time to local time
 function convertUTCToLocal(utcDateTime) {
-  const offsetMinutes = getTimezoneOffset();
-  const localTime = new Date(utcDateTime);
-  localTime.setMinutes(localTime.getMinutes() - offsetMinutes);
-  return localTime.toISOString(); // Adjust the format as needed
-}
+  // Create a new Date object from the UTC date and time string
+  const utcDate = new Date(utcDateTime);
 
-const localSignupDate = convertUTCToLocal(signupDateUTC);
-const localLastLogin = convertUTCToLocal(lastLoginUTC);
+  // Get the user's local time zone offset in minutes
+  const offsetMinutes = utcDate.getTimezoneOffset();
+
+  // Calculate the local date and time by adding the offset to the UTC date
+  const localDate = new Date(utcDate.getTime() - offsetMinutes * 60 * 1000);
+
+  return localDate;
+}
