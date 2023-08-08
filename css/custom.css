@@ -97,3 +97,9 @@ a.popup-link {
 .material-icons {
     font-size: 24px;
 }
+
+.search-and-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
