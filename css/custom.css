@@ -101,5 +101,14 @@ a.popup-link {
 .search-and-filter {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
+}
+
+.search-input {
+    width: 400px;
+}
+
+.category-select {
+    width: 200px;
 }
