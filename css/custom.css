@@ -112,3 +112,19 @@ a.popup-link {
 .category-select {
     width: 200px;
 }
+
+.sort-icon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.sort-icon.asc::after {
+  content: "▲";
+}
+
+.sort-icon.desc::after {
+  content: "▼";
+}
