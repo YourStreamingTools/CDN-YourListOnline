@@ -128,3 +128,11 @@ a.popup-link {
 .sort-icon.desc::after {
   content: "▼";
 }
+
+.icon-toggle-dark-mode {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://cdn.yourlist.online/img/dark-theme.svg');
+    background-size: cover;
+}
