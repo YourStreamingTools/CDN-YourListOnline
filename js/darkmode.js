@@ -7,13 +7,14 @@ window.addEventListener('load', () => {
   if (isDarkMode === 'true') {
     body.classList.add('dark-mode');
     table.classList.add('dark-mode-table')
+  } else {
+    table.classList.add('light-mode-table');
   }
 });
 
 darkModeToggle.addEventListener('click', () => {
   body.classList.toggle('dark-mode');
   table.classList.toggle('dark-mode-table');
-  table.classList.toggle('light-mode-table');
   const isDarkMode = body.classList.contains('dark-mode');
   localStorage.setItem('darkMode', isDarkMode);
 });
