@@ -139,18 +139,20 @@ a.popup-link {
 
 /* DARK MODE */
 body {
+    background-color: #ffffff;
+    color: #333333;
     transition: background-color 0.3s ease;
-}
-
-.dark-mode body {
-    background-color: #1a1a1a;
-    color: #ffffff
 }
 
 .dark-mode-content {
     background-color: #ffffff;
     color: #333333;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode body {
+    background-color: #1a1a1a;
+    color: #ffffff
 }
 
 .dark-mode .dark-mode-content {
