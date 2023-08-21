@@ -148,6 +148,10 @@ body.dark-mode {
   color: #000000 !important;
 }
 
+.api-text-black {
+  color: #000000 !important;
+}
+
 .dark-mode-content {
     background-color: #ffffff;
     color: #333333;
