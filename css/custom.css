@@ -144,6 +144,10 @@ body.dark-mode {
     transition: background-color 0.3s ease;
 }
 
+.menu-text-black {
+  color: #000000 !important;
+}
+
 .dark-mode-content {
     background-color: #ffffff;
     color: #333333;
